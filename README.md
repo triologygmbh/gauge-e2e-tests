@@ -1,3 +1,5 @@
+# This readme template is not for this project and will be edited in near future!
+
 ## About this template
 
 This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
