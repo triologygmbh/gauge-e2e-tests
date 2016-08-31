@@ -1,35 +1,19 @@
-# This readme template is not for this project and will be edited in near future!
+## About gauge-e2e-tests
 
-## About this template
+This repo contains a small example on how to use the Gauge test framework for end-to-end tests using Selenium inside a Maven project.
 
-This is a template to get started with a Gauge project that uses Selenium as the driver to interact with a web browser.
+## Getting started
 
-## Installing this template
+### Prerequisites
 
-    gauge --install java_maven_selenium
+* Clone this project via `$ git clone <url>`
+* Make sure you are running [Gauge](http://getgauge.io/get-started/index.html) on your system.
+* You also have to install [Maven](https://maven.apache.org/download.cgi).
+* Selenium best runs with Chrome which requires [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) to be executed.
+* If you want to try another Browser, take a look into `env/default/browser.properties`. Possible browser entries are `CHROME`, `IE` or by default firefox.
 
-## Building on top of this template
+### Start the test
 
-### Defining Specifications
-
-* This template includes a sample specification which opens up a browser and navigates to `Get Started` page of Gauge.
-* Add more specifications on top of sample specification.
-
-Read more about [Specifications](http://getgauge.io/documentation/user/current/specifications/README.html)
-
-### Writing the implementations
-
-This is where the java implementation of the steps would be implemented. Since this is a Selenium based project, the java implementation would invoke Selenium APIs as required.
-
-_We recommend considering modelling your tests using the [Page Object](https://github.com/SeleniumHQ/selenium/wiki/PageObjects) pattern, and the [Webdriver support](https://github.com/SeleniumHQ/selenium/wiki/PageFactory) for creating them._
-
-- Note that every Gauge step implementation is annotated with a `Step` attribute that takes the Step text pattern as a parameter.
-Read more about [Step implementations in Java](http://getgauge.io/documentation/user/current/test_code/java/java.html)
-
-### Execution
-
-* You can execute the specification as:
-
-```
-mvn gauge:execute
-```
+* After fullfilling the prerequisites you can start the test with `$ mvn test`.
+* If there are some maven specific dependency errors just type `$ mvn test` a second time.
+* Now the test automation should start.
