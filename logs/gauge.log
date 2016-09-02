@@ -758,3 +758,115 @@ Total time taken: 10.392s
 09:32:01.279 
 Total time taken: 10.732s
 09:32:01.280 Updates are available. Run gauge --check-updates for more info.
+08:57:42.825 Checking updates...
+08:57:44.203 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:8: 1 => 'Navigate to "http://getgauge.io"'
+08:57:44.204 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:13: 1 => 'Go to Gauge Get Started Page'
+08:57:44.204 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:18: 1 => 'Go to Gauge Documentation'
+08:57:44.204 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:19: 1 => 'Go to Step Alias Page'
+08:57:44.204 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:20: 1 => 'Is Page title "Step alias · Gauge Documentation"?'
+08:57:48.352 Plugin [Html Report] with pid [8077] has exited
+08:57:48.453 Specifications:	0 executed	0 passed	0 failed	1 skipped
+08:57:48.453 Scenarios:	0 executed	0 passed	0 failed	2 skipped
+08:57:48.453 
+Total time taken: 4.047s
+08:57:48.453 Updates are available. Run gauge --check-updates for more info.
+09:03:14.178 Checking updates...
+09:03:16.297 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:8: 1 => 'Navigate to "http://getgauge.io"'
+09:03:16.297 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:13: 1 => 'Go to Gauge Get Started Page'
+09:03:16.297 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:18: 1 => 'Go to Gauge Documentation'
+09:03:16.297 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:19: 1 => 'Go to Step Alias Page'
+09:03:16.297 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:20: 1 => 'Is Page title "Step alias · Gauge Documentation"?'
+09:03:20.474 Plugin [Html Report] with pid [8347] has exited
+09:03:20.574 Specifications:	0 executed	0 passed	0 failed	1 skipped
+09:03:20.575 Scenarios:	0 executed	0 passed	0 failed	2 skipped
+09:03:20.575 
+Total time taken: 4.075s
+09:03:20.575 Updates are available. Run gauge --check-updates for more info.
+09:12:57.342 Checking updates...
+09:12:59.567 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:8: 1 => 'Navigate to "http://getgauge.io"'
+09:12:59.567 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:13: 1 => 'Go to Gauge Get Started Page'
+09:12:59.567 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:18: 1 => 'Go to Gauge Documentation'
+09:12:59.567 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:19: 1 => 'Go to Step Alias Page'
+09:12:59.567 [ValidationError] /home/malte/Repositories/gauge-e2e-tests/specs/example.spec:20: 1 => 'Is Page title "Step alias · Gauge Documentation"?'
+09:13:04.086 Plugin [Html Report] with pid [8657] has exited
+09:13:04.187 Specifications:	0 executed	0 passed	0 failed	1 skipped
+09:13:04.187 Scenarios:	0 executed	0 passed	0 failed	2 skipped
+09:13:04.187 
+Total time taken: 4.417s
+09:13:04.187 Updates are available. Run gauge --check-updates for more info.
+09:14:19.792 Checking updates...
+09:14:26.533 # Getting Started with Gauge
+09:14:26.535 ## Get Started
+09:14:26.539 * Navigate to "http://getgauge.io"
+
+09:14:28.747 * Go to Gauge Get Started Page
+
+09:14:30.107 ## Go to Documentation Page
+09:14:30.108 * Navigate to "http://getgauge.io"
+
+09:14:30.766 * Go to Gauge Documentation
+09:14:32.287 * Go to Step Alias Page
+09:14:33.110 * Is Page title "Step alias · Gauge Documentation"?
+09:14:33.338 Plugin [Html Report] with pid [8824] has exited
+09:14:33.439 Specifications:	1 executed	1 passed	0 failed	0 skipped
+09:14:33.439 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+09:14:33.439 
+Total time taken: 11.265s
+09:14:33.439 Updates are available. Run gauge --check-updates for more info.
+09:29:24.582 Checking updates...
+09:29:30.843 # Getting Started with Gauge
+09:29:30.845 ## Get Started
+09:29:30.848 * Navigate to "http://getgauge.io"
+
+09:29:32.870 * Go to Gauge Get Started Page
+
+09:29:34.236 ## Go to Documentation Page
+09:29:34.237 * Navigate to "http://getgauge.io"
+
+09:29:34.892 * Go to Gauge Documentation
+09:29:36.303 * Go to Step Alias Page
+09:29:37.136 * Is Page title "Step alias · Gauge Documentation"?
+09:29:37.353 Plugin [Html Report] with pid [9248] has exited
+09:29:37.453 Specifications:	1 executed	1 passed	0 failed	0 skipped
+09:29:37.453 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+09:29:37.453 
+Total time taken: 10.629s
+09:29:37.454 Updates are available. Run gauge --check-updates for more info.
+09:31:33.032 Checking updates...
+09:31:38.935 # Getting Started with Gauge
+09:31:38.936 ## Get Started
+09:31:38.938 * Navigate to "http://getgauge.io"
+
+09:31:40.191 * Go to Gauge Get Started Page
+
+09:31:41.754 ## Go to Documentation Page
+09:31:41.756 * Navigate to "http://getgauge.io"
+
+09:31:42.431 * Go to Gauge Documentation
+09:31:43.955 * Go to Step Alias Page
+09:31:44.728 * Is Page title "Step alias · Gauge Documentation"?
+09:31:44.942 Plugin [Html Report] with pid [9455] has exited
+09:31:45.043 Specifications:	1 executed	1 passed	0 failed	0 skipped
+09:31:45.043 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+09:31:45.043 
+Total time taken: 10.078s
+09:31:45.043 Updates are available. Run gauge --check-updates for more info.
+09:31:53.397 Checking updates...
+09:31:59.113 # Getting Started with Gauge
+09:31:59.117 ## Get Started
+09:31:59.119 * Navigate to "http://getgauge.io"
+
+09:32:00.321 * Go to Gauge Get Started Page
+
+09:32:01.854 ## Go to Documentation Page
+09:32:01.856 * Navigate to "http://getgauge.io"
+
+09:32:02.512 * Go to Gauge Documentation
+09:32:03.900 * Go to Step Alias Page
+09:32:04.730 * Is Page title "Step alias · Gauge Documentation"?
+09:32:04.940 Plugin [Html Report] with pid [9613] has exited
+09:32:05.041 Specifications:	1 executed	1 passed	0 failed	0 skipped
+09:32:05.041 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+09:32:05.041 
+Total time taken: 9.871s
+09:32:05.041 Updates are available. Run gauge --check-updates for more info.
