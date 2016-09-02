@@ -48,20 +48,26 @@ public class StepImplementation {
     public void gotoGetStartedPage() throws InterruptedException {
         WebElement getStartedButton = Driver.webDriver.findElement(By.xpath("//*[@id=\"content\"]/div[1]/section[1]/div[2]/a[1]"));
         getStartedButton.click();
-        Gauge.writeMessage("Page title is " + Driver.webDriver.getTitle());
+        String title = Driver.webDriver.getTitle();
+        Gauge.writeMessage("Page title is " + title);
+        assertThat(title, is("Gauge | ThoughtWorks"));
     }
     
     @Step("Go to Gauge Documentation")
     public void gotoDocumentationPage() throws InterruptedException {
         Driver.webDriver.get("http://getgauge.io/documentation/user/current/");
-        Gauge.writeMessage("Page title is " + Driver.webDriver.getTitle());
+        String title = Driver.webDriver.getTitle();
+        Gauge.writeMessage("Page title is " + title);
+        assertThat(title, is("Introduction · Gauge Documentation"));
         
     }
     
     @Step("Go to Step Alias Page")
     public void gotoStepAliasPage() throws InterruptedException {
         Driver.webDriver.get("http://getgauge.io/documentation/user/current/advanced_readings/step_alias.html");
-        Gauge.writeMessage("Page title is " + Driver.webDriver.getTitle());
+        String title = Driver.webDriver.getTitle();
+        Gauge.writeMessage("Page title is " + title);
+        assertThat(title, is("Step alias · Gauge Documentation"));
     }
     
     @Step("Is Page title <title>?")
