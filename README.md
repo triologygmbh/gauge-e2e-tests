@@ -2,6 +2,8 @@
 
 This repo contains a small example on how to use the Gauge test framework for end-to-end tests using Selenium inside a Maven project.
 
+Read the tutorial here: [Gauge - a lightweight behavior-driven testing tool ](https://www.triology.de/en/blog-entries/gauge-ein-leichtgewichtiges-behavior-driven-testing-tool).
+
 ## Getting started
 
 ### Prerequisites
